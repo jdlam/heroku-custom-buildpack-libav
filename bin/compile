@@ -17,6 +17,7 @@ cd $VENDOR_DIR
 mkdir -p libav
 cd libav
 curl -L --silent $DOWNLOAD_URL | tar xJ --strip-components=1
+./avconv
 
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/libav.sh"
