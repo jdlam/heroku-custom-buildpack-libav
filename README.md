@@ -10,11 +10,11 @@ Unlike other build packs, I never compile anything.
 Add the following to your `.buildpacks`:
 
 ```
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+https://github.com/jdlam/heroku-custom-buildpack-libav.git
 ```
 
 Or run the following from the heroku command line:
 
 ```
-heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+heroku buildpacks:add https://github.com/jdlam/heroku-custom-buildpack-libav.git
 ```
